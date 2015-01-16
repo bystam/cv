@@ -1,0 +1,90 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{casual} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+\usepackage[utf8]{inputenc}
+
+\usepackage[scale=0.75]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Fredrik} % Your first name
+\familyname{Bystam} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{CV}
+\address{Mårdstigen 15 lgh 1202}{170 75 Solna}
+\mobile{(+46)76 65 15 200}
+\email{fredrik.bystam@gmail.com}
+\photo[100pt][0.4pt]{pictures/bild} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2010--2013}{Bachelor's Degree in Computer Science}{KTH, Royal Institute of Technology}{Stockholm}{}{Bachelor Thesis: Lyrics Writing Assistant. Developed a software for support and auto-completion when writing lyrics and poetry}
+\cventry{2013-2015}{Master's degree in Computer Science}{KTH, Royal Institute of Technology}{Stockholm}{}{Master's Thesis: Using gyroscope measurements to improve motion tracking for Augmented Reality. Developed and tested image processing software for the iPhone, and tried to improve it using gyroscope data. Mostly written in C++.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Experience}
+
+\cventry{2011--2014}{Software Developer}{\textsc{Digpro Solutions AB}}{Stockholm}{}{Worked as a Java developer (including SQL databases) on a large project. My work included mostly development and enhancement of client-side tools in the applications owned by the company.}
+
+\section{Extracurricular Activities}
+\cventry{2013--2013}{Project Leader (Storebror)}{\textsc{Datasektionens Mottagning}}{KTH, Stockholm}{}{"Mottagningen" (the reception of new students) is an organization working to give new students an introduction and good first impression of KTH. It consists of just shy of sixty people, and has a budget of more than one million SEK. As Storebror I was project leader and had ultimate responsibility for the outcome.}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Computer skills}
+
+\cvitem{Languages}{Java, Javascript, C++, Objective-C, SQL}
+\cvitem{Platforms}{node.js, iOS}
+\cvitem{Miscallenous}{OSX, Linux, git, Back-end, Image Processing}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
